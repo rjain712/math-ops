@@ -17,10 +17,16 @@ To avoid floating-point and rounding errors in JS
 
 ## Installation
 
-Install num-ops with npm
+Install num-ops with npm globally
 
 ```bash
-  npm install num-ops --save
+  npm install -g num-ops 
+```
+
+Install num-ops with npm as dev dependency
+
+```bash
+  npm install -D num-ops 
 ```
 
 ## Methods
