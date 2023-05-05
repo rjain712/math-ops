@@ -68,6 +68,10 @@ class Utility {
         let pointPosition = answer.indexOf('.')
         const aDigit = params.aDigit
         const bDigit = params.bDigit
+        if (aDigit === bDigit) {
+          if (negative) answer = '-' + answer
+          return answer
+        }
         const point = params.point
         if (pointPosition === -1) {
           pointPosition = answer.length
