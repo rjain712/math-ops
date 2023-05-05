@@ -1,4 +1,4 @@
-# math-ops
+# num-ops
 
 Our library provides a comprehensive solution for performing precise mathematical operations in JavaScript.
 It ensures accuracy and reliability and offers the flexibility to convert results from a number to a string data type to avoid rounding errors.
@@ -17,10 +17,10 @@ To avoid floating-point and rounding errors in JS
 
 ## Installation
 
-Install math-ops with npm
+Install num-ops with npm
 
 ```bash
-  npm install math-ops --save
+  npm install num-ops --save
 ```
 
 ## Methods
@@ -35,7 +35,7 @@ Install math-ops with npm
 ## Usage/Examples
 
 ```javascript
-import ops from 'math-ops'
+import ops from 'num-ops'
 
 ops.add(5.33, 5.2) // = 10.53, not 10.530000000000001
 ops.subtract(8.13, 5.75) // = 2.38, not 2.380000000000001
